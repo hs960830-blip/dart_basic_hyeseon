@@ -43,3 +43,27 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+
+
+# 빌드 관련
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE 관련
+.idea/
+*.iml
+
+# OS 관련
+.DS_Store
+
+# 플랫폼별 폴더 (과제 제출엔 불필요)
+android/
+ios/
+linux/
+macos/
+windows/
+web/
