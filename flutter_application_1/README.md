@@ -6,11 +6,11 @@ void main() {
 
   int score=84;
   if(score>=90) {                                /// 1
-    print('이 학생의 점수는 $score이며, A등급입니다!');
+    print('이 학생의 점수는 $score점이며, A등급입니다!');
   } else if(score>=80) {                         /// 2
-    print('이 학생의 점수는 $score이며, B등급입니다!');
+    print('이 학생의 점수는 $score점이며, B등급입니다!');
   } else {                                       /// 3
-    print('이 학생의 점수는 $score이며, C등급입니다!');
+    print('이 학생의 점수는 $score점이며, C등급입니다!');
   }
 
 }
