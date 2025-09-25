@@ -4,7 +4,10 @@
 //필수 문제 1번.
 void main() {
 
+  // 학생의 점수 입력
   int score=84;
+
+  // 점수에 따른 등급 조건 입력 및 결과 출력
   if(score>=90) {
     print('이 학생의 점수는 $score점이며, A등급입니다!');
   } else if(score>=80) {
@@ -20,14 +23,18 @@ void main() {
 //필수 문제 2번.
 void main() {
  
+ // 상품 가격 입력
 int Tshirt = 10000;
 int pants = 8000;
 int cap = 4000;
-  
+
+
+// 장바구니에 담긴 상품의 금액 계산 및 총 금액 출력 
 int totalprice = Tshirt*2 + pants*2 + cap; {
   print('장바구니에 $totalprice 어치를 담으셨네요 !');
 } 
 
+// 총 금액의 할인가와 할인가가 적용되는 기준 입력
 num a = totalprice;
 num sale = a * 0.1;
   
@@ -35,6 +42,7 @@ num sale = a * 0.1;
     print('할인금액: $sale원');
   }
 
+// 최종 결제 금액 안내
 num grandtotal = totalprice - sale; {
   print('최종적으로 결제하실 금액은 $grandtotal 입니다 !');
  } 
