@@ -1,7 +1,7 @@
 
 
 
-//필수 문제 1번
+//필수 문제 1번.
 void main() {
 
   int score=84;
@@ -17,7 +17,7 @@ void main() {
 
 
 
-//필수 문제 2번
+//필수 문제 2번.
 void main() {
  
 int Tshirt = 10000;
