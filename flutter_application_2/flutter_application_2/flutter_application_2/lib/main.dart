@@ -40,3 +40,49 @@ num grandtotal = totalprice - sale; {
  } 
   
 }
+
+
+
+
+
+
+// 도전 문제.
+void main() {
+
+  // 로또 번호의 범위 지정
+  
+  Set<int> lotto = {};
+  for(int i = 1; i <= 45; i++);
+  
+  
+  // 발급한 로또 번호
+  List<int> numbers = [4, 13, 17, 22, 30, 41]; {
+   print('발급한 로또 번호: $numbers');
+  }
+  
+  
+  // 당첨 번호
+
+  List<int> win = [4, 7, 21, 30, 41, 43]; {
+    print('당첨된 로또 번호: $win');
+  }
+  
+  
+  // 발급 번호와 당첨 번호 비교 + 당첨 여부 확인
+  
+  var checkWin = {4, 7, 21, 30, 41, 43};  
+  var checkNumbers = {4, 13, 17, 22, 30, 41};
+  
+  checkWin.removeAll(checkNumbers);
+    if (checkWin.length >= 5) {
+      print('당첨 여부 : 1등 당첨 성공');
+    } else if (checkWin.length >= 4) {
+      print('당첨 여부 : 2등 당첨 성공');
+    } else if (checkWin.length >= 3) {
+      print('당첨 여부 : 3등 당첨 성공');
+    } else {
+      print('당첨 여부 : 당첨 실패');
+    }
+ 
+  
+}
